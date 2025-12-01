@@ -1,5 +1,6 @@
 import imgET from "../assets/expense_tracker.png"
 import imgGame from "../assets/game.png"
+import textToQr from "../assets/text_to_qr.webp"
 
 const Card = () => {
   return (
@@ -12,11 +13,11 @@ const Card = () => {
         <div className="w-16 h-1 bg-gray-400 mb-6 mx-auto md:mx-auto"></div>
             <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 px-4 sm:px-6 lg:px-10 py-6 mx-auto">
             <SingleCard
-              image="https://cdn.tailgrids.com/assets/images/application/cards/card-01/image-01.jpg"
-              CardTitle="E-Commerce Website"
+              image={textToQr}
+              CardTitle="Text To QR"
               titleHref="/#"
-              btnHref="/#"
-              CardDescription="A responsive online store to make shopping easy."
+              btnHref="https://github.com/Saurabhh-01/TextToQr"
+              CardDescription="Turn text into QR in just one click."
               Button="View Details"
             />
             <SingleCard
@@ -24,6 +25,7 @@ const Card = () => {
               CardTitle="Expense Tracker"
               CardDescription="Smart expense tracker desined to monitor spending."
               Button="View Details"
+              btnHref="https://github.com/Saurabhh-01/Expense_Tracker"
             />
             <SingleCard
               image={imgGame}
