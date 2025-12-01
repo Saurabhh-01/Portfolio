@@ -32,7 +32,7 @@ const Card = () => {
               CardTitle="Tic-Tac-Toe"
               CardDescription="A classic Tic-Tac-Toe game for fun and logic practice."
               Button="View Details"
-              btnHref="https://saurabhh-01.github.io/Tic-Tac-Toe/"
+              btnHref="/Tic-Tac-Toe/"
             />
           </div>
         </div>
